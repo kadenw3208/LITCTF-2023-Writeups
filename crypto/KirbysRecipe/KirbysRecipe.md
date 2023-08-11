@@ -88,6 +88,8 @@ We see another key, so we move on to the next cipher.<br>
 **9.** For this last cipher, we can use two different methods:<br>
 **Method #1**: First, we need to be careful of the hidden whitespace character at the very beginning when we use `Inspect Element` to look at the source code. After that, we can try out different ciphers until we finally get that this cipher is the **XOR Cipher**.  Decoding the [XOR cipher](https://www.cryptool.org/en/cto/xor) using a key of 1 gives:<br>
 `! As I grew older, I continued to make the soup, passing on the recipe to my own friends and family. And whenever I cooked it, I always thought of my grandmother and the memories we shared in the kitchen. To this day, whenever I make the soup, I can'lq:t help but smile, knowing that I am carrying on a tradition that started with my grandmother in the countryside of Dream Land.`<br>
-Now from here, we notice that each of the decoded lines has a character in front, and when we add all of them up, we get `YUMSOUP!!` <br>
+Now from here, we notice that each of the decoded lines has a character in front, and when we add all of them up, we get `YUMSOUP!!`<br> 
+**Method 2:** If you maybe tried to find the cipher and couldn't find it, brute forcing is another option. Since we already know 6 of the 7 characters of the special keyword (`YUMSOUP!`), we can just head straight to the `kirbycooking.png.zip` file and just bash out the password until you find the correct one. Eventually, you will end up with the correct password of `YUMSOUP!!`<br>
 
-**Method 2 (Guessy): **
+Now that we know the password, we can open up the `.png` file. But we're not sure what to do with this file! Perhaps we could use something called steganography (hiding information within an image). After extracting the file from the folder and decrypting using [this website](https://stylesuxx.github.io/steganography/), we find the flag instantly in the `Hidden Message` field.
+<br> Flag: `LITCTF{s0up_fr0m_k1rby!2!3}`
