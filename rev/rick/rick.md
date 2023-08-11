@@ -46,7 +46,7 @@ And owo you, never gonna make you cry
 UwU's never gonna say goodbye
 UwU's never gonna tell a lie and hurt owo
 ```
-This is only part of the file, the rest is in `file.md`.<br>
+This is only part of the file, the rest is in `file`.<br>
 With such a long line of text, it is not clear how to approach the problem. However, knowing that the flag format of LITCTF has a `{` symbol in it, we can try to search it using the `Ctrl+F` keys. <br>
 ### ❗❗❗❗❗❗**IMPORTANT**❗❗❗❗❗❗❗❗
 **You must make sure that you search for the right characters. Typically, the flag format of LITCTF is of the form `LITCTF{`, we must keep in mind that that may not be the case. Instead, we should copy the special characters that might appear in typical LITCTF flags, such as `{` or `_`. <br>**
