@@ -164,7 +164,8 @@ const enteredPassword = document.getElementById("password").value;
 We can see that the password is `passwordkirbyyay`, so let's input that in. Once we do, we move onto the next page. 
 ![chall2](https://i.ibb.co/CVx4b2S/image.png)
 > [!NOTE]
->  You may recognize this as KirbBot from one of the other LITCTF challenges, but is a very orz challenge. I recommend you check it out. <br>\
+>  You may recognize this as KirbBot from one of the other LITCTF challenges, but is a very orz challenge. I recommend you check it out. <br>
+
 Continuing, we can proceed in the same manner by looking at the source code.<br>
 ```js
  function checkPassword() {
