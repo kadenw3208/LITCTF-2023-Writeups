@@ -9,7 +9,7 @@ link: [https://docs.google.com/document/d/1EZZUHKMm6EIub0skuCa0a4IvETzbmNaM1wogR
 ## Writeup
 To find what the Google Doc contains, check `doc.md`. <br>
 When we open it up, we find one section for `keys`, and the other for `encrypted flags`. We have no clue what cipher this could be, so we can plug the very first encrypted flag into a [cipher identifier](https://www.dcode.fr/cipher-identifier) to see if we can find which cipher this might be. Looking at the left side, we can see:
-![im](https://i.ibb.co/vkD0Yb8/image.png)
+![im](https://i.ibb.co/vkD0Yb8/image.png)<br>
 We can try decoding the very first cipher, the [Jefferson Wheel Cipher](https://www.dcode.fr/jefferson-wheel-cipher). 
 ![im2](https://i.ibb.co/P4rP7Z3/image.png)
 Hmm, it doesn't seem like we can gain anything useful by using the `Jefferson Wheel Cipher`. Let's try the next cipher on the list, which is the [Affine Cipher](https://www.dcode.fr/affine-cipher). 
