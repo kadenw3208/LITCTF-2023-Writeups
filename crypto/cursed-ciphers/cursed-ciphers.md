@@ -9,7 +9,7 @@ link: [https://docs.google.com/document/d/1EZZUHKMm6EIub0skuCa0a4IvETzbmNaM1wogR
 ## Writeup
 To find what the Google Doc contains, check `doc.md`. <br>
 When we open it up, we find one section for `keys`, and the other for `encrypted flags`. We have no clue what cipher this could be, so we can plug the very first encrypted flag into a [cipher identifier](https://www.dcode.fr/cipher-identifier) to see if we can find which cipher this might be. Looking at the left side, we can see:
-![im](https://i.ibb.co/vkD0Yb8/image.png)<br>
+![im](https://i.ibb.co/vkD0Yb8/image.png)
 We can try decoding the very first cipher, the [Jefferson Wheel Cipher](https://www.dcode.fr/jefferson-wheel-cipher). 
 ![im2](https://i.ibb.co/P4rP7Z3/image.png)
 Hmm, it doesn't seem like we can gain anything useful by using the `Jefferson Wheel Cipher`. Let's try the next cipher on the list, which is the [Affine Cipher](https://www.dcode.fr/affine-cipher). 
@@ -44,7 +44,9 @@ The first thing that we notice is that in the first part, there should be a `i` 
 > [!IMPORTANT]
 > **In order to solve the question, we nee to realize that the indices of the cursed characters are given in the key section.**
 
-Let's look at the third flag. By analysis, we also realize that the words inside the curly braces (`{}`) should spell out to be `affine_my_beloved` (with varying capitalization). So, we note down the index of the characters that are wrong, or **cursed** (🤔🤔🤔).  First decoding the `Affine Cipher` gives `iLTcTF{AFFind_MY_BdiOVeD}`.  The third row of the keys gives `11 1 | 2 | 12 18`.  The characters at positions `12` and `18` are both `d`. Now we are pretty sure of our pattern.<br><br>
+Let's look at the third flag. By analysis, we also realize that the words inside the curly braces (`{}`) should spell out to be `affine_my_beloved` (with varying capitalization). So, we note down the index of the characters that are wrong, or **cursed** (🤔🤔🤔).  First decoding the `Affine Cipher` gives `iLTcTF{AFFind_MY_BdiOVeD}`.  Take a look at this diagram. <br><br>
+![diagram](https://i.ibb.co/b2wfc08/image.png)
+<br>The third row of the keys gives `11 1 | 2 | 12 18`.  The characters at positions `12` and `18` are both `d`. Now we are pretty sure of our pattern.<br><br>
 
 The flag format for LITCTF is `LITCTF{`, so we need to find a ciphertext with all capital letters in the first 6 characters. Doing so  across all ciphers only yields 3 possible ciphers.
 ```
