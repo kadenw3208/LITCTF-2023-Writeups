@@ -8,7 +8,7 @@ i lost my flag in this thing :(<br>
 ### downloads
 [rick](http://34.29.19.233/dl/?rev/rick/rick)
 ## Writeup
-When we open the file up, we can see this:
+When we open the file up with a standard notepad, we can see this:
 ```
 (Verse 1)
 UwU, we're on an owo adventure tonight
