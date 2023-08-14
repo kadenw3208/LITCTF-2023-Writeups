@@ -81,7 +81,7 @@ Interesting, it seems like we have something that isn't part of the story! At th
 ### ⚠️⚠️⚠️⚠️⚠️WARNING⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 **For these last two ciphers, if you are to use the ciphers that the cipher identifier gives you, you will not be able to find the solution.**
 ### ⚠️⚠️⚠️⚠️⚠️WARNING⚠️⚠️⚠️⚠️⚠️⚠️⚠️
-**8. Bit Shift Cipher**
+**8. Bit Shift Cipher.**<br>
 This cipher doesn't seem to have a clear solution at the start, but after further examination, we can see the `==` at the end. Which ciphers are characteristic of this? Base ciphers! (`Base64, Base58, Base32, etc.`) However, when we try to use these ciphers, they don't end up working. So, we remember bases and the other thing we think of is `bits`. Luckily, there is a cipher called the `Bit Shift Cipher`. We can use this [decrypter](https://www.cryptool.org/en/cto/bitshift) with the key from the last cipher (`Key=Key`) to get:<br>
 `! Over the next few weeks, my grandmother taught me how to make the soup from scratch. We would wake up early in the morning to harvest fresh vegetables from the garden, and spend the day cooking and preparing the soup. She showed me how to chop the vegetables just right and how to season the soup to perfection. Key = 1`<br>
 We see another key, so we move on to the next cipher.<br><br>
