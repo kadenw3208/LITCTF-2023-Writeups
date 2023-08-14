@@ -239,7 +239,9 @@ Viewing the source code gives us:<br>
 ```
 We can see that the password is `secretkirbypw!!` so we input that and move on.
 ![chall5](https://i.ibb.co/VT35NG1/image.png)
-(📝📝Note: Another way to get here is to notice that after challenge 2, the tags /challenge3, /challenge4, and /challenge5 are just appended, so you can just append it to the end to skip straight to challenge 5. e.g. `http://34.130.180.82:54926/challenge5`)<br>
+> [!NOTE]
+> Another way to get here is to notice that after challenge 2, the tags /challenge3, /challenge4, and /challenge5 are just appended, so you can just append it to the end to skip straight to challenge 5. e.g. `http://34.130.180.82:54926/challenge5`)<br>
+
 It seems that we have to upload a file with name `kirby.txt`. However, when we try to do it, it doesn't work because of this code:
 ```js
 
