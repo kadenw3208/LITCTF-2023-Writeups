@@ -55,7 +55,7 @@ Upon opening this up, we can see a lot of different ciphers. Since we don't know
 ### The ciphers in order:
 **1. Atbash Cipher**. <br><br>
 The result we get from decrypting the atbash:<br>
-Y Long ago in Dream Land, I, Kirby, lived with my family in the peaceful countryside. My grandmother was a renowned food chef who had cooked for many famous heroes and royalty in the land.`<br><br>
+`Y Long ago in Dream Land, I, Kirby, lived with my family in the peaceful countryside. My grandmother was a renowned food chef who had cooked for many famous heroes and royalty in the land.`<br><br>
 **2. ROT1 Cipher**. <br><br>
 The result we get from decrypting the ROT1:<br>
 `U Growing up, I loved spending time with her in the kitchen, watching her cook up delicious meals with ingredients she had grown and harvested from her own farm. She would always say that cooking wasn't just about making food, but it was also about showing love and care to the people you were cooking for.`<br><br>
